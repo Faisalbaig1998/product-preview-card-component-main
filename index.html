@@ -16,6 +16,11 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
     <title>product-preview-card-component-main</title>
   </head>
   <body>
@@ -28,9 +33,19 @@
         /> -->
       </div>
       <div class="content">
-        <p style="font-family: Montserrat">PERFUME</p>
+        <p
+          style="
+            font-family: Montserrat;
+            letter-spacing: 5px;
+            font-size: 12px;
+            font-weight: 400px;
+            color: var(--Dark_grayish_blue);
+          "
+        >
+          PERFUME
+        </p>
         <h2>Gabrielle Essence Eau De Parfum</h2>
-        <p class="descriptin">
+        <p class="description">
           A floral, solar and voluptuous interpretation composed by Oliver
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
@@ -38,7 +53,10 @@
           <h2>$149.99</h2>
           <span class="alternate-price">$169.99</span>
         </div>
-        <button>Add to Cart</button>
+        <button>
+          <i class="fas fa-shopping-cart"></i>
+          Add to Cart
+        </button>
       </div>
     </div>
   </body>

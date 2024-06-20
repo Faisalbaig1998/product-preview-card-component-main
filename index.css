@@ -68,7 +68,7 @@ body {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   width: 50%;
-  border: 2px solid green;
+  /* border : 2px solid green; */
   height: 100%;
 }
 
@@ -91,6 +91,9 @@ body {
 }
 
 button {
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--White);
   border: none;
   border-radius: 4px;
   margin-bottom: 20px;
@@ -98,4 +101,15 @@ button {
   height: 40px;
   background-color: var(--dark_cyan);
   /* border: 1px solid black; */
+}
+
+button i {
+  margin-right: 5px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Montserrat;
+  color: var(--Dark_grayish_blue);
 }
