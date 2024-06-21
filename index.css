@@ -113,3 +113,9 @@ button i {
   font-family: Montserrat;
   color: var(--Dark_grayish_blue);
 }
+
+button:hover {
+  background-color: var(--Very_dark_blue);
+  transition: 250ms ease-in-out;
+  cursor: pointer;
+}
