@@ -124,7 +124,7 @@ button:hover {
   display: none;
 }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 375px) {
   body {
     /* border: 2px solid red; */
     /* display: block; */
